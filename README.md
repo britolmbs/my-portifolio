@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+# Portfólio de Lucas Messias Brito da Silva
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre mim, meus projetos e como me contactar.
 
-Currently, two official plugins are available:
+## Sobre Mim
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sou Lucas Messias Brito da Silva, um desenvolvedor FullStack com experiência em diversas tecnologias, incluindo HTML, CSS, JavaScript, React.js, Java, SpringBoot. Tenho paixão por criar soluções inovadoras e eficientes que resolvem problemas do mundo real.
 
-## Expanding the ESLint configuration
+## Projetos
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### [Projeto 1](https://link-do-projeto1.com)
+![Projeto 1](img/projeto1.png)
 
-- Configure the top-level `parserOptions` property like this:
+**Descrição**: Este é um projeto que faz XYZ. Foi desenvolvido usando tecnologias como A, B, e C.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Código**: [GitHub Repository](https://github.com/seu_usuario/projeto1)
+- **Demonstração**: [Ver Projeto](https://link-do-projeto1.com)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### [Projeto 2](https://link-do-projeto2.com)
+![Projeto 2](img/projeto2.png)
+
+**Descrição**: Este é um projeto que faz ABC. Utiliza tecnologias como X, Y, e Z.
+
+- **Código**: [GitHub Repository](https://github.com/seu_usuario/projeto2)
+- **Demonstração**: [Ver Projeto](https://link-do-projeto2.com)
+
+## Contato
+
+- **Email**: [britolmbs@hotmail.com](mailto:britolmbs@hotmail.com)
+- **GitHub**: [https://github.com/britolmbs](https://github.com/britolmbs)
+- **LinkedIn**: [https://linkedin.com/in/britolmbs](https://linkedin.com/in/britolmbs)
+
+## Como Executar o Projeto Localmente
+
+Se você quiser executar este portfólio localmente, siga as instruções abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/britolmbs/my-portifolio.git
+   cd my-portifolio
