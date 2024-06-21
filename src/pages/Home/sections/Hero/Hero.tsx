@@ -2,11 +2,12 @@ import { Button, Container, Grid, Typography, styled } from "@mui/material"
 import Avatar from "../../../../assets/images/Avatar.jpg"
 import DownloadIcon from '@mui/icons-material/Download';
 import MarkEmailUnreadIcon from '@mui/icons-material/MarkEmailUnread';
+import StyledButton from "../../../../components/StyledButton/StyledButton";
 
 
 const   Hero = () =>  {
-    const StyledHero = styled("div")(()=> ({
-        backgroundColor: "black",
+    const StyledHero = styled("div")(({theme})=> ({
+        backgroundColor: theme.palette.primary.main,
         height:"100vh" 
     }))
 
@@ -25,18 +26,19 @@ const   Hero = () =>  {
                 <StyledImg src={Avatar} />
                 </Grid>
                 <Grid item xs={12} md={8}>
-                    <Typography color={"primary"}variant="h1"textAlign={"center"}>Lucas Brito</Typography>
-                    <Typography color={"primary"}variant="h2"textAlign={"center"}>Desenvolvedor FullStack</Typography>
+                    <Typography color={"primary.contrastText"}variant="h1"textAlign={"center"}>Lucas Brito</Typography>
+                    <Typography color={"primary.contrastText"}variant="h2"textAlign={"center"}>Desenvolvedor FullStack</Typography>
                     <Grid container display={"flex"} justifyContent={"center"}>
                         <Grid item xs={12} md={4} display={"flex"} justifyContent={"center"}> 
-                            <Button>
-                        <DownloadIcon />
-                        Download CV</Button>
+                            
+                        <StyledButton><DownloadIcon />
+                        Download CV</StyledButton>
+                        
                         </Grid>
                         <Grid item xs={12} md={4} display={"flex"} justifyContent={"center"}>
-                        <Button>
+                        <StyledButton>
                         <MarkEmailUnreadIcon />
-                        Contato</Button>
+                        Contato</StyledButton>
                         </Grid>
                     </Grid>
                    
