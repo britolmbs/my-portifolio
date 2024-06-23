@@ -1,23 +1,38 @@
-import { AppBar, MenuItem, Toolbar, styled } from "@mui/material"
+import { AppBar, MenuItem, Toolbar, styled } from "@mui/material";
+import React from "react";
 
-const   NavBar= () =>  {
-
-    const StyledToobar = styled(Toolbar)(({themer}) => ({
+const NavBar = () => {
+    const StyledToolbar = styled(Toolbar)(({ theme }) => ({
         display: "flex",
-        justifyContent: "space-evenly"
-    }))
+        justifyContent: "space-evenly",
+    }));
 
-  return (
-    <>
-     <AppBar position="absolute">
-        <StyledToobar>
-            <MenuItem>About</MenuItem>
-            <MenuItem>Projects</MenuItem>
-        </StyledToobar>
+    const handleMenuItemClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+        event.preventDefault(); // Impede o comportamento padrão de navegação do link
+        const targetId = event.currentTarget.getAttribute("href")?.substring(1); // Obtém o ID do destino sem o #
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            const offset = 64; // Ajuste para o deslocamento do AppBar
+            const elementPosition = targetElement.offsetTop - offset;
+            window.scrollTo({
+                top: elementPosition,
+                behavior: "smooth", // Rolagem suave para o elemento de destino
+            });
+        }
+    };
 
-     </AppBar>
-    </>
-  )
-}
+    return (
+        <AppBar position="fixed">
+            <StyledToolbar>
+                <MenuItem href="#about" onClick={handleMenuItemClick}>
+                    Sobre Mim
+                </MenuItem>
+                <MenuItem href="#projects" onClick={handleMenuItemClick}>
+                    Projetos
+                </MenuItem>
+            </StyledToolbar>
+        </AppBar>
+    );
+};
 
-export default NavBar
+export default NavBar;

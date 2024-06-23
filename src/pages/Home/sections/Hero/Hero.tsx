@@ -4,6 +4,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import MarkEmailUnreadIcon from '@mui/icons-material/MarkEmailUnread';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimateBackground/AnimateBackground";
+import { Padding } from "@mui/icons-material";
 
 
 const   Hero = () =>  {
@@ -11,7 +12,14 @@ const   Hero = () =>  {
         backgroundColor: theme.palette.primary.main,
         height:"100vh", 
         display:"flex",
-        alignItems:"center"
+        alignItems:"center",
+        [theme.breakpoints.up('xs')]:{ //Para mobile
+          paddingtop: "100px"
+
+        },
+        [theme.breakpoints.up('md')]:{ //para PC
+            paddingTop: "0",
+        }
     }))
 
     const StyledImg = styled("img")(({theme})=> ({
@@ -42,12 +50,12 @@ const   Hero = () =>  {
                     <Grid container display={"flex"} justifyContent={"center"} spacing={3} pt={3}>
                         <Grid item xs={12} md={4} display={"flex"} justifyContent={"center"}> 
                             
-                        <StyledButton><DownloadIcon />
+                        <StyledButton onClick={()=> console.log('download')}><DownloadIcon />
                         <Typography>Download CV</Typography></StyledButton>
                         
                         </Grid>
                         <Grid item xs={12} md={4} display={"flex"} justifyContent={"center"}>
-                        <StyledButton>
+                        <StyledButton onClick={()=>console.log('contato')}>
                         <MarkEmailUnreadIcon />
                         <Typography>Contato</Typography></StyledButton>
                         </Grid>
