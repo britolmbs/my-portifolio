@@ -8,21 +8,21 @@ Sou Lucas Messias Brito da Silva, um desenvolvedor FullStack com experiência em
 
 ## Projetos
 
-### [Projeto de cartão]([https://link-do-projeto1.com](https://github.com/britolmbs/projetocartao)
+### [Projeto de cartão]((https://github.com/britolmbs/projetocartao))
 
 
 **Descrição**: Este projeto consiste em um sistema de gestão de cartões de crédito integrado a uma plataforma de mensageria, desenvolvido com Java, Spring Boot, Docker e RemmeBBQT.
 
 - **Código**: [GitHub Repository](https://github.com/britolmbs/projetocartao)
-- **Demonstração**: [Ver Projeto]([https://link-do-projeto1.com](https://github.com/britolmbs/projetocartao)
+- **Demonstração**: [Ver Projeto]((https://github.com/britolmbs/projetocartao))
 
-### [Ms Autenticação]([https://link-do-projeto2.com](https://github.com/britolmbs/ms-autenticacao)
+### [Ms Autenticação]((https://github.com/britolmbs/ms-autenticacao))
 
 
 **Descrição**: Este é um microserviço de autenticação simples utilizando JSON Web Tokens (JWT), desenvolvido em Node.js com Express..
 
 - **Código**: [GitHub Repository]([https://github.com/seu_usuario/projeto2](https://github.com/britolmbs/ms-autenticacao)
-- **Demonstração**: [Ver Projeto]([https://link-do-projeto2.com](https://github.com/britolmbs/ms-autenticacao)
+- **Demonstração**: [Ver Projeto]((https://github.com/britolmbs/ms-autenticacao))
 
 ## Contato
 
