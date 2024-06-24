@@ -8,21 +8,21 @@ Sou Lucas Messias Brito da Silva, um desenvolvedor FullStack com experiência em
 
 ## Projetos
 
-### [Projeto 1](https://link-do-projeto1.com)
-![Projeto 1](img/projeto1.png)
+### [Projeto de cartão]([https://link-do-projeto1.com](https://github.com/britolmbs/projetocartao)
 
-**Descrição**: Este é um projeto que faz XYZ. Foi desenvolvido usando tecnologias como A, B, e C.
 
-- **Código**: [GitHub Repository](https://github.com/seu_usuario/projeto1)
-- **Demonstração**: [Ver Projeto](https://link-do-projeto1.com)
+**Descrição**: Este projeto consiste em um sistema de gestão de cartões de crédito integrado a uma plataforma de mensageria, desenvolvido com Java, Spring Boot, Docker e RemmeBBQT.
 
-### [Projeto 2](https://link-do-projeto2.com)
-![Projeto 2](img/projeto2.png)
+- **Código**: [GitHub Repository](https://github.com/britolmbs/projetocartao)
+- **Demonstração**: [Ver Projeto]([https://link-do-projeto1.com](https://github.com/britolmbs/projetocartao)
 
-**Descrição**: Este é um projeto que faz ABC. Utiliza tecnologias como X, Y, e Z.
+### [Ms Autenticação]([https://link-do-projeto2.com](https://github.com/britolmbs/ms-autenticacao)
 
-- **Código**: [GitHub Repository](https://github.com/seu_usuario/projeto2)
-- **Demonstração**: [Ver Projeto](https://link-do-projeto2.com)
+
+**Descrição**: Este é um microserviço de autenticação simples utilizando JSON Web Tokens (JWT), desenvolvido em Node.js com Express..
+
+- **Código**: [GitHub Repository]([https://github.com/seu_usuario/projeto2](https://github.com/britolmbs/ms-autenticacao)
+- **Demonstração**: [Ver Projeto]([https://link-do-projeto2.com](https://github.com/britolmbs/ms-autenticacao)
 
 ## Contato
 
