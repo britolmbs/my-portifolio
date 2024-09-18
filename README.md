@@ -21,7 +21,7 @@ Sou Lucas Messias Brito da Silva, um desenvolvedor FullStack com experiência em
 
 **Descrição**: Este é um microserviço de autenticação simples utilizando JSON Web Tokens (JWT), desenvolvido em Node.js com Express..
 
-- **Código**: [GitHub Repository]([https://github.com/seu_usuario/projeto2](https://github.com/britolmbs/ms-autenticacao)
+- **Código**: [GitHub Repository]((https://github.com/britolmbs/ms-autenticacao)
 - **Demonstração**: [Ver Projeto]((https://github.com/britolmbs/ms-autenticacao))
 
 ## Contato
