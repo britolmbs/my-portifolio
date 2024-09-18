@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Box, Container, Grid, Typography, styled, Card, CardContent, CardActions, Button } from "@mui/material";
+import { Container, Grid, Typography, styled, Card, CardContent, CardActions, Button } from "@mui/material";
 
-// Se o Box não está sendo utilizado, remova-o da lista de importações
+// Removido Box das importações, pois não está sendo utilizado
 
 const Projects = () => {
     const [projects] = useState([
@@ -40,7 +40,6 @@ const Projects = () => {
             description: "Este projeto é uma aplicação web desenvolvida em React que mostra os repositórios do GitHub de um usuário e a quantidade de estrelas que cada um possui, em um formato semelhante ao GitHub.",
             url: "https://github.com/britolmbs/git-app",
         },
-        // Adicione mais projetos conforme necessário
     ]);
 
     const StyledProjects = styled("div")(({ theme }) => ({
