@@ -11,18 +11,25 @@ const Hero = () => {
         height: "100vh",
         display: "flex",
         alignItems: "center",
-        [theme.breakpoints.up('xs')]: { //Para mobile
-            paddingTop: "100px"
-        },
+        justifyContent: "center",
+        flexDirection: "column",
+        paddingTop: theme.spacing(2),
         [theme.breakpoints.up('md')]: { //para PC
             paddingTop: "0",
+            flexDirection: "row",
         }
     }));
 
     const StyledImg = styled("img")(({ theme }) => ({
-        width: "80%",
+        width: "100%",
+        maxWidth: "300px", // Aumentar o maxWidth para telas maiores
         borderRadius: "50%",
-        border: `1px solid ${theme.palette.primary.contrastText}`
+        border: `1px solid ${theme.palette.primary.contrastText}`,
+        marginBottom: theme.spacing(2),
+        [theme.breakpoints.up('md')]: {
+            maxWidth: "400px", // Ajuste adicional para desktops
+            marginBottom: 0,
+        }
     }));
 
     const handleDownloadCV = () => {
@@ -41,18 +48,18 @@ const Hero = () => {
     return (
         <StyledHero>
             <Container maxWidth="lg">
-                <Grid container spacing={2}>
-                    <Grid item xs={12} md={5}>
+                <Grid container spacing={2} justifyContent="center" alignItems="center">
+                    <Grid item xs={12} md={5} style={{ display: 'flex', justifyContent: 'center' }}>
                         <Box position="relative">
                             <Box position="absolute" width={"150%"} top={-100} right={0}>
                                 <AnimatedBackground />
                             </Box>
-                            <Box position="absolute" textAlign={"center"}>
+                            <Box position="relative" textAlign={"center"}>
                                 <StyledImg src={Avatar} />
                             </Box>
                         </Box>
                     </Grid>
-                    <Grid item xs={12} md={7}>
+                    <Grid item xs={12} md={7} container direction="column" alignItems="center">
                         <Typography color={"primary.contrastText"} variant="h1" textAlign={"center"} pb={2}>Lucas Brito</Typography>
                         <Typography color={"primary.contrastText"} variant="h2" textAlign={"center"}>Desenvolvedor FullStack</Typography>
                         <Grid container display={"flex"} justifyContent={"center"} spacing={3} pt={3}>
