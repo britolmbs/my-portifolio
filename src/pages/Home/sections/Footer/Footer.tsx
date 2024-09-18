@@ -1,6 +1,8 @@
 import { Container, Typography, Grid, styled, IconButton } from "@mui/material";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import GitHubIcon from '@mui/icons-material/GitHub'; // Importa o ícone do GitHub
 
 const StyledFooter = styled('footer')(({ theme }) => ({
   backgroundColor: theme.palette.primary.main,
@@ -36,6 +38,30 @@ const Footer = () => {
               color="inherit"
             >
               <LinkedInIcon />
+            </IconButton>
+          </Grid>
+          <Grid item>
+            <IconButton
+              aria-label="WhatsApp"
+              component="a"
+              href="https://wa.me/5521973052650" 
+              target="_blank"
+              rel="noopener noreferrer"
+              color="inherit"
+            >
+              <WhatsAppIcon />
+            </IconButton>
+          </Grid>
+          <Grid item>
+            <IconButton
+              aria-label="GitHub"
+              component="a"
+              href="https://github.com/britolmbs" 
+              target="_blank"
+              rel="noopener noreferrer"
+              color="inherit"
+            >
+              <GitHubIcon />
             </IconButton>
           </Grid>
         </Grid>
