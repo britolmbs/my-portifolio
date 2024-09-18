@@ -2,14 +2,15 @@ import { AppBar, MenuItem, Toolbar, styled } from "@mui/material";
 import React from "react";
 
 const NavBar = () => {
-    const StyledToolbar = styled(Toolbar)(({ theme }) => ({
+    // Removido o uso do tema, pois não está sendo utilizado
+    const StyledToolbar = styled(Toolbar)({
         display: "flex",
         justifyContent: "space-evenly",
-    }));
+    });
 
     const handleMenuItemClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
         event.preventDefault(); // Impede o comportamento padrão de navegação do link
-        const targetId = event.currentTarget.getAttribute("href")?.substring(1); // Obtém o ID do destino sem o #
+        const targetId = event.currentTarget.getAttribute("href")?.substring(1) || ''; // Usa valor padrão para evitar undefined
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
             const offset = 64; // Ajuste para o deslocamento do AppBar
