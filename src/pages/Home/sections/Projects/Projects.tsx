@@ -1,8 +1,15 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Box, Container, Grid, Typography, styled, Card, CardContent, CardActions, Button } from "@mui/material";
+
+// Se o Box não está sendo utilizado, remova-o da lista de importações
 
 const Projects = () => {
     const [projects] = useState([
+        {
+            name: "Patisserie Nathália Valle",
+            description: "O site da Patisserie Nathália Valle é uma plataforma online que exibe uma variedade de produtos de confeitaria, permitindo que os clientes explorem e façam pedidos diretamente via WhatsApp.",
+            url: "https://github.com/britolmbs/patisserie",
+        },
         {
             name: "Projeto de cartão",
             description: "Este projeto consiste em um sistema de gestão de cartões de crédito integrado a uma plataforma de mensageria, desenvolvido com Java, Spring Boot, Docker e RemmeBBQT.",
@@ -33,7 +40,7 @@ const Projects = () => {
             description: "Este projeto é uma aplicação web desenvolvida em React que mostra os repositórios do GitHub de um usuário e a quantidade de estrelas que cada um possui, em um formato semelhante ao GitHub.",
             url: "https://github.com/britolmbs/git-app",
         },
-        // Adicione quantos projetos quiser seguindo o mesmo padrão
+        // Adicione mais projetos conforme necessário
     ]);
 
     const StyledProjects = styled("div")(({ theme }) => ({
