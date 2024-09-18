@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Container, Grid, Typography, styled, Card, CardContent, CardActions, Button } from "@mui/material";
-
-// Removido Box das importações, pois não está sendo utilizado
 
 const Projects = () => {
     const [projects] = useState([
