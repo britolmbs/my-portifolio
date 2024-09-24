@@ -8,9 +8,15 @@ const Projects = () => {
             description: "O site da Patisserie Nathália Valle é uma plataforma online que exibe uma variedade de produtos de confeitaria, permitindo que os clientes explorem e façam pedidos diretamente via WhatsApp.",
             url: "https://github.com/britolmbs/patisserie",
         },
+
+        {
+            name: "barbershop",
+            description: "O projeto Sistema de Agendamento para Barbearia é uma aplicação desenvolvida em Java utilizando o framework Spring, com o objetivo de otimizar e gerenciar de forma eficiente o agendamento de serviços em uma barbearia. Este sistema oferece uma interface amigável e intuitiva, permitindo que clientes e funcionários interajam de maneira simples e eficaz.",
+            url: "https://github.com/britolmbs/barbershop",
+        },
         {
             name: "Projeto de cartão",
-            description: "Este projeto consiste em um sistema de gestão de cartões de crédito integrado a uma plataforma de mensageria, desenvolvido com Java, Spring Boot, Docker e RemmeBBQT.",
+            description: "Este projeto consiste em um sistema de gestão de cartões de crédito integrado a uma plataforma de mensageria, desenvolvido com Java, Spring Boot, Docker e RabbitMQ.",
             url: "https://github.com/britolmbs/projetocartao",
         },
         {
