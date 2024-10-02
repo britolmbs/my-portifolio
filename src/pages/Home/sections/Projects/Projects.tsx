@@ -8,6 +8,11 @@ const Projects = () => {
             description: "O site da Patisserie Nathália Valle é uma plataforma online que exibe uma variedade de produtos de confeitaria, permitindo que os clientes explorem e façam pedidos diretamente via WhatsApp.",
             url: "https://github.com/britolmbs/patisserie",
         },
+        {
+            name: "LionsSeminovos",
+            description: "TESTE PRÁTICO Desenvolvedor front-end Este será o teste prático utilizado pela Lions Seminovos para te avaliar tecnicamente como desenvolvedor front-end.",
+            url: "https://github.com/britolmbs/LionsSeminovos",
+        },
 
         {
             name: "barbershop",
