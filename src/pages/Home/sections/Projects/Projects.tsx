@@ -9,6 +9,11 @@ const Projects = () => {
             url: "https://github.com/britolmbs/patisserie",
         },
         {
+            name: "projeto formulario",
+            description: "Este projeto visa desenvolver um sistema de gestão de clientes para uma empresa que está informatizando seu setor. O sistema oferece uma interface amigável e responsiva para adicionar, consultar e gerenciar informações de clientes. As funcionalidades principais incluem:",
+            url: "https://github.com/britolmbs/projeto-formulario",
+        },
+        {
             name: "LionsSeminovos",
             description: "TESTE PRÁTICO Desenvolvedor front-end Este será o teste prático utilizado pela Lions Seminovos para te avaliar tecnicamente como desenvolvedor front-end.",
             url: "https://github.com/britolmbs/LionsSeminovos",
