@@ -9,8 +9,13 @@ const Projects = () => {
             url: "https://github.com/britolmbs/patisserie",
         },
         {
+            name: "Marcondes Veículos",
+            description: "O Projeto de Criação de Site para a Concessionária Marcondes Veículos visa desenvolver uma plataforma web moderna e responsiva utilizando tecnologias como HTML, CSS, JavaScript, Node.js, React e Material UI.",
+            url: "https://github.com/britolmbs/marcondes-veiculos",
+        },
+        {
             name: "projeto formulario",
-            description: "Este projeto visa desenvolver um sistema de gestão de clientes para uma empresa que está informatizando seu setor. O sistema oferece uma interface amigável e responsiva para adicionar, consultar e gerenciar informações de clientes. As funcionalidades principais incluem:",
+            description: "Este projeto visa desenvolver um sistema de gestão de clientes para uma empresa que está informatizando seu setor. O sistema oferece uma interface amigável e responsiva para adicionar, consultar e gerenciar informações de clientes. As funcionalidades principais incluem.",
             url: "https://github.com/britolmbs/projeto-formulario",
         },
         {
