@@ -34,7 +34,7 @@ const Hero = () => {
 
     const handleDownloadCV = () => {
         const link = document.createElement('a');
-        link.href = '../../assets/pdf/Lucas_Brito_CV.pdf'; // Atualize o caminho do PDF
+        link.href = '../../assets/cv/Lucas_Brito_CV.pdf'; // Atualize o caminho do PDF
         link.download = 'Lucas_Brito_CV.pdf';
         document.body.appendChild(link);
         link.click();
