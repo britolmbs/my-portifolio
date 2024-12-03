@@ -8,6 +8,18 @@ const Projects = () => {
             description: "O site da Patisserie Nathália Valle é uma plataforma online que exibe uma variedade de produtos de confeitaria, permitindo que os clientes explorem e façam pedidos diretamente via WhatsApp.",
             url: "https://github.com/britolmbs/patisserie",
         },
+
+        {
+            name: "Centro Médico João XXIII",
+            description: "Desenvolvimento do site para o Centro Médico João XXIII, uma plataforma web moderna e responsiva utilizando tecnologias como HTML, CSS, JavaScript, Node.js, React e Material UI, Swiper e DOM.",
+            url: "https://github.com/britolmbs/centro-medico",
+        },
+        {
+            name: "Academia BodyLab",
+            description: "Criação de Site da Academia BodyLabutilizando tecnologias como HTML, CSS, Bootstrap, NodeJS e MySQL.",
+            url: "https://github.com/britolmbs/academia-bodylab",
+        },
+
         {
             name: "Marcondes Veículos",
             description: "O Projeto de Criação de Site para a Concessionária Marcondes Veículos visa desenvolver uma plataforma web moderna e responsiva utilizando tecnologias como HTML, CSS, JavaScript, Node.js, React e Material UI.",
