@@ -19,12 +19,24 @@ const Projects = () => {
             description: "Criação de Site da Academia BodyLabutilizando tecnologias como HTML, CSS, Bootstrap, NodeJS e MySQL.",
             url: "https://github.com/britolmbs/academia-bodylab",
         },
-
+        
         {
             name: "Marcondes Veículos",
             description: "O Projeto de Criação de Site para a Concessionária Marcondes Veículos visa desenvolver uma plataforma web moderna e responsiva utilizando tecnologias como HTML, CSS, JavaScript, Node.js, React e Material UI.",
             url: "https://github.com/britolmbs/marcondes-veiculos",
         },
+        {
+            name: "Todo App",
+            description: "Organize e acompanhe suas tarefas de forma eficiente com o Todo, um site desenvolvido com tecnologias de ponta como React, React Hooks, Redux, MongoDB, Axios e Webpack. Simples, rápido e funcional para otimizar sua produtividade.",
+            url: "https://github.com/britolmbs/todo-app",
+        },
+
+        {
+            name: "Fundamentos NextJs",
+            description: "Este é um projeto de estudos focado nos fundamentos do Next.js, um dos frameworks mais poderosos para o desenvolvimento web moderno. A aplicação utiliza tecnologias como React, Hooks, Tailwind CSS, Firebase.",
+            url: "https://github.com/britolmbs/fundamentos-nextjs",
+        },
+
         {
             name: "projeto formulario",
             description: "Este projeto visa desenvolver um sistema de gestão de clientes para uma empresa que está informatizando seu setor. O sistema oferece uma interface amigável e responsiva para adicionar, consultar e gerenciar informações de clientes. As funcionalidades principais incluem.",
