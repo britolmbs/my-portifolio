@@ -15,6 +15,11 @@ const Projects = () => {
             url: "https://github.com/britolmbs/centro-medico",
         },
         {
+            name: "Ferdrone",
+            description: "Desenvolvimento do site para Ferdrone Imagens Aéreas, plataforma web moderna e responsiva, tecnologias como Next.js, Tailwind CSS.",
+            url: "https://github.com/britolmbs/ferdrone",
+        },
+        {
             name: "Academia BodyLab",
             description: "Criação de Site da Academia BodyLabutilizando tecnologias como HTML, CSS, Bootstrap, NodeJS e MySQL.",
             url: "https://github.com/britolmbs/academia-bodylab",
