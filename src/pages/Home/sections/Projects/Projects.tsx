@@ -20,6 +20,11 @@ const Projects = () => {
             url: "https://github.com/britolmbs/ferdrone",
         },
         {
+            name: "My Money App",
+            description: "My Money App é uma solução moderna desenvolvida com React, React Hooks, Redux, MongoDB, Axios e Webpack para gerenciar facilmente gastos e recebimentos. Simples, rápido e funcional, otimiza sua produtividade ao proporcionar controle total sobre suas finanças.",
+            url: "https://github.com/britolmbs/my-money-app",
+        },
+        {
             name: "Academia BodyLab",
             description: "Criação de Site da Academia BodyLabutilizando tecnologias como HTML, CSS, Bootstrap, NodeJS e MySQL.",
             url: "https://github.com/britolmbs/academia-bodylab",
