@@ -10,6 +10,12 @@ const Projects = () => {
         },
 
         {
+            name: "Toca dos Bichos",
+            description: "Desenvolvimento uma landing page para o pet shop Toca do Bichos, localizado em Santa Cruz (RJ), utilizando Next.js e a biblioteca ui.shadcn. O site foi projetado para destacar os serviços oferecidos, com foco em performance, design moderno e navegação intuitiva, a fim de proporcionar a melhor experiência para os clientes.",
+            url: "https://github.com/britolmbs/toca-dos-bichos",
+        },
+
+        {
             name: "Centro Médico João XXIII",
             description: "Desenvolvimento do site para o Centro Médico João XXIII, uma plataforma web moderna e responsiva utilizando tecnologias como HTML, CSS, JavaScript, Node.js, React e Material UI, Swiper e DOM.",
             url: "https://github.com/britolmbs/centro-medico",
