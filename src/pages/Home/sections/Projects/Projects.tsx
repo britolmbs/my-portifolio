@@ -14,17 +14,23 @@ const Projects = () => {
             description: "Desenvolvimento uma landing page para o pet shop Toca do Bichos, localizado em Santa Cruz (RJ), utilizando Next.js e a biblioteca ui.shadcn. O site foi projetado para destacar os serviços oferecidos, com foco em performance, design moderno e navegação intuitiva, a fim de proporcionar a melhor experiência para os clientes.",
             url: "https://github.com/britolmbs/toca-dos-bichos",
         },
+        {
+            name: "Ferdrone",
+            description: "Desenvolvimento do site para Ferdrone Imagens Aéreas, plataforma web moderna e responsiva, tecnologias como Next.js, Tailwind CSS.",
+            url: "https://github.com/britolmbs/ferdrone",
+        },
+        {
+            name: "API_REST JavaScript",
+            description: "Desenvolvimento da API REST em JavaScript para gestão escolar, permitindo a interação entre usuários (administradores e educadores) e alunos. Utilizei Express para gerenciar rotas, Sequelize como ORM para interagir com o banco de dados MariaDB, e implementei bcryptjs para criptografia de senhas, garantindo a segurança dos dados. A autenticação e autorização são gerenciadas com jsonwebtoken, enquanto dotenv facilita a configuração da aplicação com variáveis de ambiente.",
+            url: "https://github.com/britolmbs/api_rest",
+        },
 
         {
             name: "Centro Médico João XXIII",
             description: "Desenvolvimento do site para o Centro Médico João XXIII, uma plataforma web moderna e responsiva utilizando tecnologias como HTML, CSS, JavaScript, Node.js, React e Material UI, Swiper e DOM.",
             url: "https://github.com/britolmbs/centro-medico",
         },
-        {
-            name: "Ferdrone",
-            description: "Desenvolvimento do site para Ferdrone Imagens Aéreas, plataforma web moderna e responsiva, tecnologias como Next.js, Tailwind CSS.",
-            url: "https://github.com/britolmbs/ferdrone",
-        },
+        
         {
             name: "My Money App",
             description: "My Money App é uma solução moderna desenvolvida com React, React Hooks, Redux, MongoDB, Axios e Webpack para gerenciar facilmente gastos e recebimentos. Simples, rápido e funcional, otimiza sua produtividade ao proporcionar controle total sobre suas finanças.",
