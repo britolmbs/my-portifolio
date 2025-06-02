@@ -10,6 +10,12 @@ const Projects = () => {
         },
 
         {
+            name: "ApoiaTec",
+            description: "Desenvolvimento de um MicroSaaS para técnicos, que facilita a gestão de pagamentos utilizando Next.js, Stripe, TypeScript e outras tecnologias modernas. O site foi projetado para destacar os serviços oferecidos, priorizando performance, design moderno e uma navegação intuitiva, proporcionando uma experiência excepcional para os clientes.",
+            url: "https://github.com/britolmbs/apoiaTec",
+        },
+
+        {
             name: "Toca dos Bichos",
             description: "Desenvolvimento uma landing page para o pet shop Toca do Bichos, localizado em Santa Cruz (RJ), utilizando Next.js e a biblioteca ui.shadcn. O site foi projetado para destacar os serviços oferecidos, com foco em performance, design moderno e navegação intuitiva, a fim de proporcionar a melhor experiência para os clientes.",
             url: "https://github.com/britolmbs/toca-dos-bichos",
