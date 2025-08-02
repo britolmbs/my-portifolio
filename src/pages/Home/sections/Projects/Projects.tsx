@@ -8,6 +8,11 @@ const Projects = () => {
             description: "O site da Patisserie Nathália Valle é uma plataforma online que exibe uma variedade de produtos de confeitaria, permitindo que os clientes explorem e façam pedidos diretamente via WhatsApp.",
             url: "https://github.com/britolmbs/patisserie",
         },
+        {
+            name: "O Forasteiro Barbearia",
+            description: "Sistema de gestão para a barbearia O Forasteiro, com agendamento de serviços, dashboard financeiro e autenticação de usuários. Desenvolvido em TypeScript, Next.js, Express e MongoDB, o projeto visa otimizar a experiência do cliente e facilitar o gerenciamento da barbearia.",
+            url: "https://github.com/britolmbs/o-forasteiro-barbearia",
+        },
 
         {
             name: "ApoiaTec",
