@@ -35,12 +35,12 @@ const About = () => {
 
     const techs = [
         { icon: SiJavascript, label: "JavaScript" },
-        { icon: FaNodeJs, label: "Node.js" },
-        { icon: TbBrandTypescript, label: "Typescript"},
-        { icon: FaReact, label: "React" },
-        { icon: TbBrandNextjs, label: "Next.js" },
         {icon : FaPhp, label: "PHP"},
         { icon: FaJava, label: "Java" },
+        { icon: TbBrandTypescript, label: "Typescript"},
+        { icon: FaNodeJs, label: "Node.js" },
+        { icon: FaReact, label: "React" },
+        { icon: TbBrandNextjs, label: "Next.js" },
         { icon: SiSpringboot, label: "Spring Boot" },
         // { icon: SiMaven, label: "Maven" }, // Removido temporariamente
         { icon: SiAngular, label: "Angular" },
@@ -51,7 +51,11 @@ const About = () => {
             <Container maxWidth="lg">
                 <Typography variant="h2" align="center" gutterBottom>Sobre Mim</Typography>
                 <Typography variant="body1" align="center" paragraph>
-                Sou Lucas Messias Brito da Silva, desenvolvedor Full Stack formado em Sistemas de Informação e atualmente cursando pós-graduação em Desenvolvimento Full Stack. Tenho experiência em Java, Springboot , Typescript, ReactJS, VueJs, NodeJs, JavaScript, HTML, CSS, PHP. Aqui estão algumas das tecnologias com as quais trabalho:
+                Sou Lucas Messias Brito da Silva, desenvolvedor Full Stack formado em Sistemas de Informação e atualmente cursando pós-graduação em Desenvolvimento Full Stack.
+                </Typography>
+                 <Typography variant="body1" align="center" paragraph>
+                Desenvolvimento de sistemas e páginas web responsivas utilizando JavaScript, TypeScript, PHP, Node.js, React.js, Next.js e Angular.
+                Ao longo de minha trajetória, desenvolvi habilidades sólidas em integrações com RESTful APIs, autenticação segura (JWT, OAuth) e operações assíncronas no back-end desenvolvimento de microserviços e utilização de metodologias ágeis como Scrum.
                 </Typography>
                 <IconContainer>
                     {techs.map((tech, index) => (
