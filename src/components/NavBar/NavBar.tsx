@@ -25,10 +25,10 @@ const NavBar = () => {
     return (
         <AppBar position="fixed">
             <StyledToolbar>
-                <MenuItem href="#About" onClick={handleMenuItemClick}>
+                <MenuItem href="/#About" onClick={handleMenuItemClick}>
                     Sobre Mim
                 </MenuItem>
-                <MenuItem href="#Projects" onClick={handleMenuItemClick}>
+                <MenuItem href="/#Projects" onClick={handleMenuItemClick}>
                     Projetos
                 </MenuItem>
             </StyledToolbar>
