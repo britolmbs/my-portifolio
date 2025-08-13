@@ -51,7 +51,7 @@ const About = () => {
             <Container maxWidth="lg">
                 <Typography variant="h2" align="center" gutterBottom>Sobre Mim</Typography>
                 <Typography variant="body1" align="center" paragraph>
-                Sou Lucas Messias Brito da Silva, desenvolvedor Full Stack formado em Sistemas de Informação e atualmente cursando pós-graduação em Desenvolvimento Full Stack.
+                Sou Lucas Messias Brito da Silva, desenvolvedor Full Stack formado em Sistemas de Informação.
                 </Typography>
                  <Typography variant="body1" align="center" paragraph>
                 Construo aplicações e interfaces responsivas do front ao back usando JavaScript, TypeScript, PHP, Node.js, React, Next.js e Angular. Tenho experiência em integrações com RESTful APIs, autenticação e autorização seguras (JWT, OAuth), operações assíncronas no back-end e arquitetura de microserviços. Trabalho com metodologias ágeis (Scrum) e tenho como foco entregar soluções escaláveis, performáticas e de fácil manutenção.
