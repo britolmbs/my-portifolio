@@ -4,6 +4,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import MarkEmailUnreadIcon from '@mui/icons-material/MarkEmailUnread';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimateBackground/AnimateBackground";
+import { useState } from "react";
 
 const Hero = () => {
     const StyledHero = styled("div")(({ theme }) => ({
@@ -40,9 +41,17 @@ const Hero = () => {
         link.click();
         document.body.removeChild(link);
     };
+      const [copied, setCopied] = useState(false);
 
     const handleContact = () => {
-        alert("E-mail de contato: britolmbs@hotmail.com");
+         const email = "britolmbs@hotmail.com";
+
+    navigator.clipboard.writeText(email).then(() => {
+      setCopied(true);
+
+    
+      setTimeout(() => setCopied(false), 6000);
+    });
     };
 
     return (

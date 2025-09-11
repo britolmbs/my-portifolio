@@ -19,6 +19,11 @@ const Projects = () => {
             description: "Desenvolvimento de um MicroSaaS para técnicos, que facilita a gestão de pagamentos utilizando Next.js, Stripe, TypeScript e outras tecnologias modernas. O site foi projetado para destacar os serviços oferecidos, priorizando performance, design moderno e uma navegação intuitiva, proporcionando uma experiência excepcional para os clientes.",
             url: "https://github.com/britolmbs/apoiaTec",
         },
+        {
+            name: "Centro Medico Santa Cruz",
+            description: "Desenvolvimento de um sistema de agendamento online para o Centro Médico Santa Cruz, que otimiza o processo de marcação de consultas de forma simples e eficiente. O projeto foi desenvolvido com Node.js, Next.js, React, Tailwind CSS, Zod e Next-Auth, garantindo autenticação segura, validação robusta, design moderno e uma navegação intuitiva para os usuários.",
+            url: "https://github.com/britolmbs/clinica-santacruz",
+        },
 
         {
             name: "Toca dos Bichos",
