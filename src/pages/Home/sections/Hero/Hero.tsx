@@ -49,7 +49,7 @@ const Hero = () => {
 
        navigator.clipboard.writeText(email).then(() => {
     const msg = document.createElement("div");
-    msg.innerText = "E-mail copiado!";
+    msg.innerText = `E-mail copiado!  ${email}`;
     msg.style.position = "fixed";
     msg.style.bottom = "20px";
     msg.style.left = "50%";
@@ -62,7 +62,7 @@ const Hero = () => {
     msg.style.zIndex = "9999";
     document.body.appendChild(msg);
 
-    setTimeout(() => msg.remove(), 2000);
+    setTimeout(() => msg.remove(), 10000);
   });
     };
 
