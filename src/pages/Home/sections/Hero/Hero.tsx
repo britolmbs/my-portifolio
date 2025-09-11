@@ -41,17 +41,28 @@ const Hero = () => {
         link.click();
         document.body.removeChild(link);
     };
-      const [copied, setCopied] = useState(false);
+    
 
     const handleContact = () => {
-         const email = "britolmbs@hotmail.com";
+          const email = "britolmbs@hotmail.com";
+          
+       navigator.clipboard.writeText(email).then(() => {
+    const msg = document.createElement("div");
+    msg.innerText = "E-mail copiado!";
+    msg.style.position = "fixed";
+    msg.style.bottom = "20px";
+    msg.style.left = "50%";
+    msg.style.transform = "translateX(-50%)";
+    msg.style.background = "#16a34a"; // verde
+    msg.style.color = "white";
+    msg.style.padding = "10px 20px";
+    msg.style.borderRadius = "8px";
+    msg.style.boxShadow = "0 2px 6px rgba(0,0,0,0.2)";
+    msg.style.zIndex = "9999";
+    document.body.appendChild(msg);
 
-    navigator.clipboard.writeText(email).then(() => {
-      setCopied(true);
-
-    
-      setTimeout(() => setCopied(false), 6000);
-    });
+    setTimeout(() => msg.remove(), 2000);
+  });
     };
 
     return (
