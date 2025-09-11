@@ -4,7 +4,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import MarkEmailUnreadIcon from '@mui/icons-material/MarkEmailUnread';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimateBackground/AnimateBackground";
-import { useState } from "react";
+
 
 const Hero = () => {
     const StyledHero = styled("div")(({ theme }) => ({
@@ -45,7 +45,7 @@ const Hero = () => {
 
     const handleContact = () => {
           const email = "britolmbs@hotmail.com";
-          
+
        navigator.clipboard.writeText(email).then(() => {
     const msg = document.createElement("div");
     msg.innerText = "E-mail copiado!";
