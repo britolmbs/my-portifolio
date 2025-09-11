@@ -4,6 +4,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import MarkEmailUnreadIcon from '@mui/icons-material/MarkEmailUnread';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimateBackground/AnimateBackground";
+import theme from "../../../../theme";
 
 
 const Hero = () => {
@@ -53,8 +54,8 @@ const Hero = () => {
     msg.style.bottom = "20px";
     msg.style.left = "50%";
     msg.style.transform = "translateX(-50%)";
-    msg.style.background = "#16a34a"; // verde
-    msg.style.color = "white";
+    msg.style.background = theme.palette.success.main;
+    msg.style.color = theme.palette.success.contrastText;;
     msg.style.padding = "10px 20px";
     msg.style.borderRadius = "8px";
     msg.style.boxShadow = "0 2px 6px rgba(0,0,0,0.2)";
