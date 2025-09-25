@@ -9,6 +9,11 @@ const Projects = () => {
             url: "https://github.com/britolmbs/patisserie",
         },
         {
+            name: "Negócios Eslovenos no Brasil",
+            description: "Plataforma de negócios para a comunidade eslovena no Brasil, com cards interativos que exibem informações comerciais, integração com mapa/Waze, galeria de imagens e imagem de destaque. Desenvolvida em Laravel, Vue, PHP e integrada à API do Google Maps.",
+            url: "https://slovenianbusinessmap.com/",
+        },
+        {
             name: "O Forasteiro Barbearia",
             description: "Sistema de gestão para a barbearia O Forasteiro, com agendamento de serviços, dashboard financeiro e autenticação de usuários. Desenvolvido em TypeScript, Next.js, Express e MongoDB, o projeto visa otimizar a experiência do cliente e facilitar o gerenciamento da barbearia.",
             url: "https://github.com/britolmbs/o-forasteiro-barbearia",
