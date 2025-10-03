@@ -14,6 +14,11 @@ const Projects = () => {
             url: "https://slovenianbusinessmap.com/",
         },
         {
+            name: "BackEnd da Forasteiro Barbearia em Java",
+            description: "Sistema de gestão para a barbearia O Forasteiro, com agendamento de serviços, dashboard financeiro e autenticação de usuários. Desenvolvido em Java com Spring Boot, Spring Web, Spring Data JPA, PostgreSQL, Spring Security e Lombok",
+            url: "https://github.com/britolmbs/o-forasteiro",
+        },
+        {
             name: "O Forasteiro Barbearia",
             description: "Sistema de gestão para a barbearia O Forasteiro, com agendamento de serviços, dashboard financeiro e autenticação de usuários. Desenvolvido em TypeScript, Next.js, Express e MongoDB, o projeto visa otimizar a experiência do cliente e facilitar o gerenciamento da barbearia.",
             url: "https://github.com/britolmbs/o-forasteiro-barbearia",
