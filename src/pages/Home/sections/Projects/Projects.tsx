@@ -8,10 +8,30 @@ const Projects = () => {
             description: "O site da Patisserie Nathália Valle é uma plataforma online que exibe uma variedade de produtos de confeitaria, permitindo que os clientes explorem e façam pedidos diretamente via WhatsApp.",
             url: "https://github.com/britolmbs/patisserie",
         },
+
         {
             name: "Negócios Eslovenos no Brasil",
             description: "Plataforma de negócios para a comunidade eslovena no Brasil, com cards interativos que exibem informações comerciais, integração com mapa/Waze, galeria de imagens e imagem de destaque. Desenvolvida em Laravel, Vue, PHP e integrada à API do Google Maps.",
             url: "https://slovenianbusinessmap.com/",
+        },
+
+        {
+            name: "AppLogin",
+            description: "Projeto de estudo desenvolvido em Java com Spring Boot, focado na implementação de um sistema de login de usuários com autenticação e validação. Utiliza JPA para acesso aos dados, Thymeleaf para renderização das páginas e MySQL como banco de dados, proporcionando uma aplicação funcional e bem estruturada para fins de aprendizado.",
+            url: "https://github.com/britolmbs/appLogin/",
+        },
+        
+        {
+            name: "FarmaOeste",
+            description: "Sistema de Gestão de Estoque desenvolvido para a farmácia FarmaOeste, permitindo controle de produtos, movimentações e níveis de estoque. Implementado em Java com Spring Boot, utilizando Spring Test, Lombok, JPA e PostgreSQL para garantir confiabilidade, performance e facilidade de manutenção.",
+            url: "https://github.com/britolmbs/FarmaOeste",
+        },
+
+
+         {
+            name: "Cadastro de Usuario (Estudo)",
+            description: "API REST em Java com Spring Boot para gerenciamento de usuários via operações CRUD. Desenvolvida com arquitetura em camadas (Controller, Service, Repository e Entity) e uso de anotações do Spring Boot e Lombok para tornar o código mais simples, organizado e fácil de manter.",
+            url: "https://github.com/britolmbs/cadastro-usuario",
         },
         {
             name: "BackEnd da Forasteiro Barbearia em Java",
